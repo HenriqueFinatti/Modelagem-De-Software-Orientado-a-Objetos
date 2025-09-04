@@ -1,27 +1,54 @@
 # Diagrama De Classes
 
-- pessoa
-- eleitor
-- candidato
-- administrador
-- uev
-- ueg
-- voto
+- **Pessoa**
+- Eleitor
+- Candidato
+- Administrador
+- UEv
+- UEg
+- Voto
 
 ```mermaid
 classDiagram
+Pessoa <|-- Eleitor
+Pessoa <|-- Candidato
+Pessoa: -int id
+Pessoa: -String nome
+Pessoa: -int idade
+Pessoa: -String sexo
+Pessoa: -String cpf
+Pessoa: -String email
+Pessoa: -String regiao
+Pessoa: +obterDadosDoSite()
 
-Pessoa: -id
-Pessoa: -nome
-Pessoa: -idade
-Pessoa: -sexo
-Pessoa: -cpf
-Pessoa: -email
-Pessoa: -regiao
 
-Eleitor: -voto
+class Eleitor{
+  -local_de_voto
+}
 
-Candidato: -cargo
+class Candidato{
+  -id
+}
+
+class UEg{
+  -id
+}
+
+class UEv{
+  -id
+  +votar()
+}
+
+class Administrador{
+  -nome
+  -id
+}
+
+class Voto{
+  -qtde
+}
+
+
 
 
 ```
