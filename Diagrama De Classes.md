@@ -1,13 +1,5 @@
 # Diagrama De Classes
 
-- **Pessoa**
-- Eleitor
-- Candidato
-- Administrador
-- UEv
-- UEg
-- Voto
-
 ```mermaid
 classDiagram
 Pessoa <|-- Eleitor
@@ -19,8 +11,6 @@ Pessoa: -String sexo
 Pessoa: -String cpf
 Pessoa: -String email
 Pessoa: -String regiao
-Pessoa: +obterDadosDoSite()
-
 
 class Eleitor{
   -local_de_voto
@@ -42,6 +32,8 @@ class UEv{
 class Administrador{
   -nome
   -id
+ +obterDadosDoSite()
+
 }
 
 class Voto{
