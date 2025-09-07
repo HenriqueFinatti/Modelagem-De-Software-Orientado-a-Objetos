@@ -42,7 +42,7 @@ class Voto{
   -double qtdeNulos
 }
 
-Administrador "1" o-- "0..*" UEg : tem um
+Administrador "1" o-- "0..*" UEg
 UEg "1" o-- "1..100" UEv
 
 ```
