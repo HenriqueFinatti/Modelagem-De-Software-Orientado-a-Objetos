@@ -15,30 +15,32 @@ Pessoa: -String regiao
 Eleitor: -local_de_voto
 
 class Candidato{
-  -id
+  -int id
 }
 
 class UEg{
-  -id
+  -int id
+  +conectarComUEv()
 }
 
 class UEv{
-  -id
+  -int id
+  -Voto voto
   +votar()
 }
 
 class Administrador{
-  -nome
-  -id
+  -String nome
+  -int id
  +obterDadosDoSite()
+ +contabilizarVotos()
 
 }
 
 class Voto{
-  -qtde
+  -double qtde
+  -double qtdeBrancos
+  -double qtdeNulos
 }
-
-
-
 
 ```
