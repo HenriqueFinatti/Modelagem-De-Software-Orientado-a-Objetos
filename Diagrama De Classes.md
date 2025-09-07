@@ -44,5 +44,6 @@ class Voto{
 
 Administrador "1" o-- "0..*" UEg
 UEg "1" o-- "1..100" UEv
+UEv "1" *-- "0..*" UEv
 
 ```
