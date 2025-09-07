@@ -15,7 +15,7 @@ Pessoa: -String regiao
 Eleitor: -local_de_voto
 
 class Candidato{
-  -int id
+  -regiaoDeAtuacao
 }
 
 class UEg{
@@ -44,7 +44,6 @@ class Voto{
 
 Administrador "1" o-- "0..*" UEg
 UEg "1" o-- "1..100" UEv
-UEv "1..*" *-- "0..*" Voto
-UEv "1" o-- "0..*" Eleitor
+UEv "1" *-- "0..*" Voto
 
 ```
