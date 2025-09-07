@@ -43,5 +43,6 @@ class Voto{
 }
 
 Candidato "1" o-- "0..*" Voto : tem um
+UEg "1" *-- "1..100" UEv
 
 ```
