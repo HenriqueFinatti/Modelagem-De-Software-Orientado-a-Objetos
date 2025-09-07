@@ -25,7 +25,6 @@ class UEg{
 
 class UEv{
   -int id
-  -Voto voto
   +votar()
 }
 
