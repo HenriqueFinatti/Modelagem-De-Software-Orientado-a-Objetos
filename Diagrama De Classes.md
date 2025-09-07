@@ -12,10 +12,10 @@ Pessoa: -String cpf
 Pessoa: -String email
 Pessoa: -String regiao
 
-Eleitor: -local_de_voto
+Eleitor: -String localDeVoto
 
 class Candidato{
-  -regiaoDeAtuacao
+  -String cargo
 }
 
 class UEg{
