@@ -42,7 +42,7 @@ class Voto{
   -double qtdeNulos
 }
 
-Candidato "1" o-- "0..*" Voto : tem um
-UEg "1" *-- "1..100" UEv
+Administrador "1" o-- "0..*" UEg : tem um
+UEg "1" o-- "1..100" UEv
 
 ```
