@@ -42,4 +42,6 @@ class Voto{
   -double qtdeNulos
 }
 
+Candidato "1" o-- "0..*" Voto : tem um
+
 ```
