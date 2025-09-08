@@ -43,7 +43,7 @@ class Voto{
 }
 
 Administrador "1" o-- "0..*" UEg
-Candidato "1" *-- "1..*" Voto
+Candidato "1" *-- "0..*" Voto
 UEg "1" o-- "1..100" UEv
 UEv "1" *-- "0..*" Voto
 UEv "1" o-- "1..*" Eleitor
