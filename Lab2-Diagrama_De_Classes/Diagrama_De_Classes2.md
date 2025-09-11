@@ -21,19 +21,20 @@ class Candidato{
 class UEg{
     - Eleitor lista_eleitores;
     - Candidatos lista_candidatos;
-    + contabilizarVotosUEv()
+    + totalizaVotosUEv()
 }
 
 class UEv{
   -int id
   +votar()
+  + contabilizarVotos()
 }
 
 class GerenciadorDoSistema{
     - Eleitor lista_eleitores;
     - Candidatos lista_candidatos;
     + obterDadosDoSite()
-    + contabilizarVotosUEg()
+    + totalizaVotosUEg()
     + cadastrarDadosNaUEg()
 }
 
