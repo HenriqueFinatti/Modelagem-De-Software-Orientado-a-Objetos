@@ -21,6 +21,7 @@ class Candidato{
 class UEg{
     - Eleitor lista_eleitores;
     - Candidatos lista_candidatos;
+    + contabilizarVotosUEv()
 }
 
 class UEv{
@@ -32,8 +33,8 @@ class GerenciadorDoSistema{
     - Eleitor lista_eleitores;
     - Candidatos lista_candidatos;
     + obterDadosDoSite()
-    + contabilizarVotos()
-    + cadastrarDadosNaUEG()
+    + contabilizarVotosUEg()
+    + cadastrarDadosNaUEg()
 }
 
 class Voto{
