@@ -1,0 +1,75 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.0">
+  <diagram name="Página-1" id="yHzFiN7VFkGh9rJvnDrT">
+    <mxGraphModel dx="1042" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QYR3IpewwIID-oocmPo7-11" value="totalizaVotosUEg()" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1">
+          <mxGeometry x="-0.1381" y="10" relative="1" as="geometry">
+            <mxPoint x="111.5" y="180" as="sourcePoint" />
+            <mxPoint x="321.5" y="180" as="targetPoint" />
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QYR3IpewwIID-oocmPo7-2" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Joao: Administrador&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="100" y="90" width="20" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="QYR3IpewwIID-oocmPo7-23" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="QYR3IpewwIID-oocmPo7-2">
+          <mxGeometry x="5" y="90" width="10" height="217" as="geometry" />
+        </mxCell>
+        <mxCell id="QYR3IpewwIID-oocmPo7-15" value="contabilizarVotos()" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0474" y="10" relative="1" as="geometry">
+            <mxPoint x="529.5" y="259" as="sourcePoint" />
+            <mxPoint x="719.5" y="259" as="targetPoint" />
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QYR3IpewwIID-oocmPo7-17" value="Enviar a contagem de votos da UEg" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="529.5" y="358" as="sourcePoint" />
+            <mxPoint x="319.5" y="358" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QYR3IpewwIID-oocmPo7-3" value="UEg" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="480" y="90" width="100" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="QYR3IpewwIID-oocmPo7-19" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="QYR3IpewwIID-oocmPo7-3">
+          <mxGeometry x="45" y="153" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="QYR3IpewwIID-oocmPo7-14" value="totalizaVotosUEv()" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1">
+          <mxGeometry x="0.0524" y="10" relative="1" as="geometry">
+            <mxPoint x="319.5" y="236" as="sourcePoint" />
+            <mxPoint x="529.5" y="236" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QYR3IpewwIID-oocmPo7-22" value="Retorna os votos" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1">
+          <mxGeometry x="0.0429" y="-12" relative="1" as="geometry">
+            <mxPoint x="319.5" y="402" as="sourcePoint" />
+            <mxPoint x="109.5" y="402" as="targetPoint" />
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QYR3IpewwIID-oocmPo7-5" value="gerenciamento: Gerenciador do Sistema" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="270" y="84" width="100" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="QYR3IpewwIID-oocmPo7-24" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="QYR3IpewwIID-oocmPo7-5">
+          <mxGeometry x="45" y="100" width="10" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="QYR3IpewwIID-oocmPo7-16" value="Envia os dados de votos da&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;UEv&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry x="0.0474" y="-10" relative="1" as="geometry">
+            <mxPoint x="719.5" y="319" as="sourcePoint" />
+            <mxPoint x="529.5" y="319" as="targetPoint" />
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QYR3IpewwIID-oocmPo7-6" value="UEv" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="670" y="90" width="100" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="QYR3IpewwIID-oocmPo7-18" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="QYR3IpewwIID-oocmPo7-6">
+          <mxGeometry x="45" y="171" width="10" height="56" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
