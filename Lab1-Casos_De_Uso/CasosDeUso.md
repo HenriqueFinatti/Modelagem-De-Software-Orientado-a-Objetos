@@ -12,7 +12,7 @@
 |Atores|Administrador|
 |Pré Condição|Deve ter pelo menos uma UEv cadastrada|
 |Pós Condição|Os votos serão contabilizados|
-|Fluxo Principal|1. O administrador solicita o envio dos fotos das UEv's cadastrads para a UEg<br> 2. O administrador solicita a UEg para contabilizar os votos|
+|Fluxo Principal|1. O administrador solicita o envio dos votos das UEv's cadastrads para a UEg<br> 2. O administrador solicita a UEg para contabilizar os votos|
 
 |Identificador|UC-03 - Cadastrar UEv|
 |-------------|-----|
