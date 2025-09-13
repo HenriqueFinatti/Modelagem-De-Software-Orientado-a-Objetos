@@ -22,6 +22,8 @@ class UEg{
     - Eleitor lista_eleitores;
     - Candidatos lista_candidatos;
     + totalizaVotosUEv()
+    +carregarUEvs()
+    +cadastrarUEv()
 }
 
 class UEv{
