@@ -46,8 +46,8 @@ class Voto{
   -double qtdeNulos
 }
 
-GerenciadorDoSistema "1" o-- "0..*" UEg
-Candidato "1" *-- "0..*" Voto : Recebe
+GerenciadorDoSistema "1" <-- "0..*" UEg
+Candidato "1" <-- "0..*" Voto : Recebe
 UEg "1" o-- "1..100" UEv
 UEv "1" *-- "0..*" Voto
 UEv "1" o-- "1..*" Eleitor
