@@ -4,11 +4,8 @@ corrigir fluxo 1:
 relacionar o sistema de cadastro com uc-07
 acrescentar fluxo alternativo
 
-corrigir fluxo2:
-relação voto para candidato ligação simples.
-relação ueg para adm ligação simples.
 
-Corrigir fluxo3:
+Corrigir fluxo3(finatti):
 Tracejar a linha de resposta
 incluir caixa de ativação
 
