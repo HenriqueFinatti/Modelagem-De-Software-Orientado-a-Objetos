@@ -24,6 +24,8 @@ class UEg{
     + totalizaVotosUEv()
     +carregarUEvs()
     +cadastrarUEv()
+    +carregaEleitor()
+    +carregaCandidato()
 }
 
 class UEv{
