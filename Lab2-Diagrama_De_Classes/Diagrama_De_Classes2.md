@@ -46,6 +46,7 @@ class Voto{
   -double qtde
   -double qtdeBrancos
   -double qtdeNulos
+  +registrarVoto()
 }
 
 GerenciadorDoSistema "1" <-- "0..*" UEg
