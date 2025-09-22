@@ -40,6 +40,7 @@ class GerenciadorDoSistema{
     + obterDadosDoSite()
     + totalizaVotosUEg()
     + cadastrarDadosNaUEg()
+    + divulgarResultado()
 }
 
 class Voto{
