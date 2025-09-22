@@ -12,7 +12,11 @@ Pessoa: -String cpf
 Pessoa: -String email
 Pessoa: -String regiao
 
-Eleitor: -String localDeVoto
+
+class Eleitor{
+  -String localDeVoto
+  +verificarAptidaoEleitor()
+}
 
 class Candidato{
   -String cargo
