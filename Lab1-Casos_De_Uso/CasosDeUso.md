@@ -45,7 +45,7 @@
 |Atores|Administrador|
 |Pré Condição|Os votos devem ser contabilizados|
 |Pós Condição|O resultado será divulgado|
-|Fluxo Principal|1. O administrador solicita a UEg para divulgar os resultados|
+|Fluxo Principal|1. O administrador  envia o resultado da eleicao para o site do cadastro.|
 
 |Identificador|UC-07 - Carregar UEg|
 |-------------|-----|
