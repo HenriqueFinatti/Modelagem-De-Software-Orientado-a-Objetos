@@ -35,7 +35,7 @@ class UEg{
 class UEv{
   -int id
   +votar()
-  + contabilizarVotos()
+  +contabilizarVotos()
 }
 
 class GerenciadorDoSistema{
