@@ -28,8 +28,8 @@ class UEg{
     + totalizaVotosUEv()
     +carregarUEvs()
     +cadastrarUEv()
-    +consultaEleitor()
-    +consultaCandidato()
+    +consultaListaEleitor()
+    +consultaListaCandidato()
 }
 
 class UEv{
