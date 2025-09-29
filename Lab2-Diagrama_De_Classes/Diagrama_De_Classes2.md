@@ -12,7 +12,11 @@ Pessoa: -String cpf
 Pessoa: -String email
 Pessoa: -String regiao
 
-Eleitor: -String localDeVoto
+
+class Eleitor{
+  -String localDeVoto
+  +verificarAptidaoEleitor()
+}
 
 class Candidato{
   -String cargo
@@ -24,14 +28,14 @@ class UEg{
     + totalizaVotosUEv()
     +carregarUEvs()
     +cadastrarUEv()
-    +consultaEleitor()
-    +consultaCandidato()
+    +consultaListaEleitor()
+    +consultaListaCandidato()
 }
 
 class UEv{
   -int id
   +votar()
-  + contabilizarVotos()
+  +contabilizarVotos()
 }
 
 class GerenciadorDoSistema{
@@ -40,12 +44,14 @@ class GerenciadorDoSistema{
     + obterDadosDoSite()
     + totalizaVotosUEg()
     + cadastrarDadosNaUEg()
+    + divulgarResultado()
 }
 
 class Voto{
   -double qtde
   -double qtdeBrancos
   -double qtdeNulos
+  +registrarVoto()
 }
 
 GerenciadorDoSistema "1" <-- "0..*" UEg
