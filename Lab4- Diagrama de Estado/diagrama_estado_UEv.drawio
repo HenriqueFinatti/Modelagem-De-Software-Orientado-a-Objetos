@@ -1,86 +1,43 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
-  <diagram name="Página-1" id="KU0HDp57aq02AGE5__Ep">
-    <mxGraphModel dx="1426" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0" version="28.2.5">
+  <diagram name="Página-1" id="S3MPPGszcZxOQigIwuMG">
+    <mxGraphModel dx="872" dy="439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="GKoUtF33VKL4G79wXgIQ-37" value="Carregar informacoes da UEg para UEv" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.552;exitY=1.095;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="GKoUtF33VKL4G79wXgIQ-40" target="GKoUtF33VKL4G79wXgIQ-35" edge="1">
+        <mxCell id="a293Hqg-_pnsrqji2zTE-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a293Hqg-_pnsrqji2zTE-1" target="a293Hqg-_pnsrqji2zTE-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GKoUtF33VKL4G79wXgIQ-41" value="Cadastrar as UEvs dentro das UEg" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZVlS2FAQnzIIBZlbNNBE-4" target="GKoUtF33VKL4G79wXgIQ-38" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ZVlS2FAQnzIIBZlbNNBE-4" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
-          <mxGeometry x="180" y="20" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="GKoUtF33VKL4G79wXgIQ-35" value="Carregando dados para UEv" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="394" y="250" width="205" height="70" as="geometry">
-            <mxRectangle x="85" y="200" width="140" height="50" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GKoUtF33VKL4G79wXgIQ-36" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(19, 19, 0);&quot;&gt;do/carregarUEvs()&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="GKoUtF33VKL4G79wXgIQ-35" vertex="1">
-          <mxGeometry y="30" width="205" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="GKoUtF33VKL4G79wXgIQ-38" value="Cadastrando as UEvs" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="380" y="80" width="205" height="70" as="geometry">
-            <mxRectangle x="85" y="200" width="140" height="50" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GKoUtF33VKL4G79wXgIQ-40" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(19, 19, 0);&quot;&gt;do/cadastrarUEv()&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="GKoUtF33VKL4G79wXgIQ-38" vertex="1">
-          <mxGeometry y="30" width="205" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="GKoUtF33VKL4G79wXgIQ-42" value="Consultando lista de eleitores" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="230" y="500" width="205" height="70" as="geometry">
-            <mxRectangle x="85" y="200" width="140" height="50" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GKoUtF33VKL4G79wXgIQ-43" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(19, 19, 0);&quot;&gt;do/consultaListaEleitor()&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="GKoUtF33VKL4G79wXgIQ-42" vertex="1">
-          <mxGeometry y="30" width="205" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="GKoUtF33VKL4G79wXgIQ-44" value="Consultando lista de candidatos" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="570" y="500" width="205" height="70" as="geometry">
-            <mxRectangle x="85" y="200" width="140" height="50" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GKoUtF33VKL4G79wXgIQ-45" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(19, 19, 0);&quot;&gt;do/consultaListaCandidato()&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="GKoUtF33VKL4G79wXgIQ-44" vertex="1">
-          <mxGeometry y="30" width="205" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Aw8kx4tp6QXFDF8gVn4c-2" value="[se quiser]/Consultar eleitores" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GKoUtF33VKL4G79wXgIQ-48" target="GKoUtF33VKL4G79wXgIQ-42" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Aw8kx4tp6QXFDF8gVn4c-3" value="[se quiser]/Consultar candidatos" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GKoUtF33VKL4G79wXgIQ-48" target="GKoUtF33VKL4G79wXgIQ-44" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="GKoUtF33VKL4G79wXgIQ-48" value="" style="ellipse;html=1;shape=endState;fillColor=none;strokeColor=default;" parent="1" vertex="1">
-          <mxGeometry x="481.5" y="370" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Aw8kx4tp6QXFDF8gVn4c-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="GKoUtF33VKL4G79wXgIQ-36" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="496.5" y="370" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Aw8kx4tp6QXFDF8gVn4c-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Aw8kx4tp6QXFDF8gVn4c-4" target="Aw8kx4tp6QXFDF8gVn4c-14" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Aw8kx4tp6QXFDF8gVn4c-4" value="Totalizando votos UEv" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="380" y="650" width="205" height="70" as="geometry">
-            <mxRectangle x="85" y="200" width="140" height="50" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Aw8kx4tp6QXFDF8gVn4c-5" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(19, 19, 0);&quot;&gt;do/totalizaVotosUEv()&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="Aw8kx4tp6QXFDF8gVn4c-4" vertex="1">
-          <mxGeometry y="30" width="205" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Aw8kx4tp6QXFDF8gVn4c-13" value="Totalizar votos da UEv" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GKoUtF33VKL4G79wXgIQ-36" target="Aw8kx4tp6QXFDF8gVn4c-4" edge="1">
-          <mxGeometry x="0.1246" relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="140" y="300" />
-              <mxPoint x="140" y="690" />
-            </Array>
+        <mxCell id="a293Hqg-_pnsrqji2zTE-8" value="Receber voto do eleitor" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a293Hqg-_pnsrqji2zTE-6">
+          <mxGeometry x="-0.1714" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Aw8kx4tp6QXFDF8gVn4c-14" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
-          <mxGeometry x="680" y="670" width="30" height="30" as="geometry" />
+        <mxCell id="a293Hqg-_pnsrqji2zTE-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="100" y="60" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a293Hqg-_pnsrqji2zTE-4" value="Recebendo Voto" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="40" width="205" height="70" as="geometry">
+            <mxRectangle x="85" y="200" width="140" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a293Hqg-_pnsrqji2zTE-5" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(19, 19, 0);&quot;&gt;do/votar()&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="a293Hqg-_pnsrqji2zTE-4">
+          <mxGeometry y="30" width="205" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a293Hqg-_pnsrqji2zTE-9" value="&lt;div&gt;Contabilizando Votos&lt;/div&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="220" width="205" height="70" as="geometry">
+            <mxRectangle x="85" y="200" width="140" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a293Hqg-_pnsrqji2zTE-10" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(19, 19, 0);&quot;&gt;do/contabilizarVotos()&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="a293Hqg-_pnsrqji2zTE-9">
+          <mxGeometry y="30" width="205" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a293Hqg-_pnsrqji2zTE-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a293Hqg-_pnsrqji2zTE-5" target="a293Hqg-_pnsrqji2zTE-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a293Hqg-_pnsrqji2zTE-12" value="Contabilizar Votos" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a293Hqg-_pnsrqji2zTE-11">
+          <mxGeometry y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
