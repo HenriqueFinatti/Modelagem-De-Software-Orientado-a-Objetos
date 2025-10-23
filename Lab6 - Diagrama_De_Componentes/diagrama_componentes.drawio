@@ -1,0 +1,25 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="Página-1" id="GkOdRt-5PWLx6c6PYXzj">
+    <mxGraphModel dx="1042" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YeGaMxiQy_S9bEHs2_bY-1" value="+ GerenciadorDoSistema&lt;div&gt;&lt;br&gt;SistemaEleitoral.war&lt;/div&gt;&lt;div&gt;&amp;lt;&amp;lt;Sistema&amp;gt;&amp;gt;&lt;/div&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="100" y="10" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="YeGaMxiQy_S9bEHs2_bY-3" value="+ UEv&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Urna.exe&lt;/div&gt;&lt;div&gt;&amp;lt;&amp;lt;Urna&amp;gt;&amp;gt;&lt;/div&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="150" y="330" width="150" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="YeGaMxiQy_S9bEHs2_bY-4" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;+ UEg&lt;/span&gt;&lt;div style=&quot;font-weight: 700;&quot;&gt;+ Pessoa&lt;br&gt;+ Voto&lt;/div&gt;&lt;div style=&quot;font-weight: 700;&quot;&gt;+ Eleitor&lt;/div&gt;&lt;div style=&quot;font-weight: 700;&quot;&gt;+ Candidato&lt;/div&gt;&lt;div style=&quot;font-weight: 700;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: 700;&quot;&gt;Pacotes&lt;/div&gt;&lt;div style=&quot;font-weight: 700;&quot;&gt;&amp;lt;&amp;lt;Package&amp;gt;&amp;gt;&lt;/div&gt;" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="180" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="YeGaMxiQy_S9bEHs2_bY-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.468;entryY=0.032;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YeGaMxiQy_S9bEHs2_bY-1" target="YeGaMxiQy_S9bEHs2_bY-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YeGaMxiQy_S9bEHs2_bY-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.533;entryY=0.09;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YeGaMxiQy_S9bEHs2_bY-4" target="YeGaMxiQy_S9bEHs2_bY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
